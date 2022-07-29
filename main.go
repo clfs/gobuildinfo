@@ -9,6 +9,8 @@ import (
 )
 
 func main() {
+	log.SetFlags(0) // Disable output prefix.
+
 	if len(os.Args) != 2 {
 		log.Fatal("usage: gobuildinfo FILE")
 	}
