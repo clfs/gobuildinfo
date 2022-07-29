@@ -14,7 +14,17 @@ Uninstall it:
 rm $(which gobuildinfo)
 ```
 
+## Usage
+Run `gobuildinfo` alone to display a usage message:
+
+```text
+$ gobuildinfo
+usage: gobuildinfo FILE
+```
+
 ## Example
+Run `gobuildinfo` on a Go binary:
+
 ```text
 $ gobuildinfo /Users/calvin/go/bin/staticcheck
 {
